@@ -8,5 +8,30 @@
 }
 .menu-h ul{
     width: 100%;
-    height: ;
+    height: 80px; 
+    background-color: #000; 
+    font-family: Arial;
+    position: fixed;
+ }
+
+.menu-h ul li{
+    display: inline;
+    width:200px; 
+    float: left;
+
+ }
+
+.menu-h ul li a{
+    color: #FFFFFF; 
+    padding: 40px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background, 4s;
+
+
+}
+
+.menu-h ul li a:hover{
+    background-color: #b09e9e;
+
 }
