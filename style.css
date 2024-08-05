@@ -1,22 +1,12 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario:#C0C0C0;
+    --botao-azul:#167BF7;
+    --cor-de-fundo:#00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
 .menu-h ul{
-    list-style: none;
-    padding: 0 30%;
-    background-color: rgb(42, 42, 43);   
-}
-
-.menu-h ul li{
-    display: inline;
-}
-
-.menu-h ul li a{
-    color: #FFFFFF;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background ,4s; 
-}
-
-.menu-h ul li a:hover{
-    background-color: rgb(114, 158, 212);
-    
+    width: 100%;
+    height: ;
 }
