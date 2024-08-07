@@ -79,5 +79,41 @@ position: fixed;
     padding: 50px 0px;
  background-color: #000000;
   background-size: cover;
+  background-position: center;
 
+}
 
+#sobre {
+    background-attachment: fixed;
+}
+
+.destaque__sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+}
+
+.destaque__sobre img {
+ border-radius: 50px;
+margin: 50px;
+width: 600px;
+
+}
+
+.texto{
+    display: inline;
+}
+
+#destaque {
+    display: inline;
+}
+
+#destaque img {
+    border-radius: 50px;
+    margin: 50px;
+    width: 1000px;
+}
