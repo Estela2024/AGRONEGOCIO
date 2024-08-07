@@ -117,3 +117,28 @@ width: 600px;
     margin: 50px;
     width: 1000px;
 }
+
+.destaque__texto{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(red, green, blue, alpha);
+    padding: 25px;
+    border-radius: 50px;
+}
+
+
+@media(max-width: 550px){
+    .destaque__sobre img {
+        border-radius: 20px;
+        margin: 20px;
+        width: 300px;
+
+    }
+    .destaque__textos
+    
+}
